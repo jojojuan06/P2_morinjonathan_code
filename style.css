@@ -176,6 +176,38 @@ border: solid 1px #d9d9d9;
 border-radius: 50%;
 margin-right: 16px;
 }
+/* APPARTENTS LIST */
+.apartments-list
+{
+  display: flex;
+  gap: 1rem;
+}
+.apartments-list div
+{
+  border: 1px solid red;
+  background-color: #d9d9d9;
+  padding: 1rem;
+}
+.apartments-list .city
+{
+  flex-basis: 66%;
+}
+.apartments-list .popular
+{
+  flex-basis: 33%;
+}
+@media (max-width:800px)  
+{
+  .apartments-list
+  {
+  flex-direction:column;
+  
+  }
+  .popular
+  {
+  order: -1;  
+  }
+}
 @media (max-width:992px) {
   .sub-nav {
     order: 1;
