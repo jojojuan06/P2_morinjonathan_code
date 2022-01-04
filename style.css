@@ -54,6 +54,21 @@ color:#0065fc;
 {
   color:blue;
 }
+@media (max-width:992px) {
+  .sub-nav {
+    order: 1;
+    flex-basis: 100%;
+  } 
+  .sub-nav a {
+  flex-basis: 50%;
+  border-bottom: 3px solid #f2f2f2;
+  }
+  .sub-nav a:hover
+  {
+  border-bottom-color:blue ;
+  border-top: transparent;
+  }
+}
 /* BODY */
 .wrapper
 {
@@ -111,6 +126,23 @@ text-align: center;
 {
   opacity: 1;
   transform:scale(1.05);
+}
+.fas.fa-search
+{
+ display:none; 
+ border-radius: 0 1rem 1rem 0;
+}
+
+@media (max-width:800px)
+{
+  .search-form .search-text
+  {
+    display: none;
+  }
+  .fas.fa-search {
+    display: inline;
+    background-color:inherit;
+  }
 }
 
 /* FILTERS */
@@ -182,7 +214,7 @@ margin-right: 16px;
   display: flex;
   gap: 1rem;
 }
-.apartments-list div
+.apartments-list > div
 {
   border: 1px solid red;
   background-color: #d9d9d9;
@@ -197,6 +229,12 @@ margin-right: 16px;
 {
   flex-basis: 33%;
 }
+.apartments-list .city a
+{
+font-weight: bold;
+}
+
+
 @media (max-width:800px)  
 {
   .apartments-list
@@ -209,34 +247,43 @@ margin-right: 16px;
   order: -1;  
   }
 }
-@media (max-width:992px) {
-  .sub-nav {
-    order: 1;
-    flex-basis: 100%;
-  } 
-  .sub-nav a {
-  flex-basis: 50%;
-  border-bottom: 3px solid #f2f2f2;
-  }
-  .sub-nav a:hover
-  {
-  border-bottom-color:blue ;
-  border-top: transparent;
-  }
-}
-.fas.fa-search
+
+/* LIST APPARTEMENTS CITY */
+.city-apartments-list
 {
- display:none; 
- border-radius: 0 1rem 1rem 0;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.city-apartments-list div 
+{
+  flex-basis: 1.8rem;
+  border: 1px solid blue;
+}
+
+/*  POPULAR */
+
+.apartments-list .popular
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.apartments-list .popular div
+{
+  border: 1px solid blue;
+}
+.apartments-list h2 
+{
+  flex-basis: 100%;
 }
 @media (max-width:800px)
 {
-  .search-form .search-text
-  {
-    display: none;
-  }
-  .fas.fa-search {
-    display: inline;
-    background-color:inherit;
-  }
+.apartments-list .popular {
+ flex-direction: row;
+ } 
 }
