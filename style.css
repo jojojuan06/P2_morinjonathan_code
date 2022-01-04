@@ -234,7 +234,7 @@ font-weight: bold;
 }
 
 
-@media (max-width:800px)  
+@media (max-width:1000px)  
 {
   .apartments-list
   {
@@ -258,13 +258,20 @@ font-weight: bold;
 }
 
 /*  POPULAR */
+.popular 
+{
+display: flex;
+flex-direction: column;
 
+}
 .apartments-list .popular-flex
 {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   flex-wrap: wrap;
+  flex-basis: 100%;
+justify-content: space-evenly;
 }
 
 @media (max-width:800px)
@@ -274,7 +281,7 @@ font-weight: bold;
  } 
 }
 
-/* APPARTMENT CARD */
+/* APARTMENT CARD */
 .apartment-card
 {
   flex-grow: 1;
@@ -282,7 +289,16 @@ font-weight: bold;
   border-radius: 1rem;
   padding: 0.5rem;
   box-shadow: 0 0 16px #0000002e;
+  flex-basis: 30%;
+  min-width: 15rem;
 }
+.apartment-card:hover 
+{
+ transform: scale(1.02);
+ box-shadow: 3px 5px 11px -5px #000000; 
+}
+/* APARTMENT IMAGE  */
+
 .apartment-card img
 {
 border-radius: 1rem 1rem  0  0;
@@ -332,8 +348,14 @@ margin-right: 1rem;
 .popular-card {
   display: flex;
   min-width: 15rem;
+  max-height: 10rem ;
 }
 .popular-card .stars
 {
   margin-top: auto;
+}
+.popular h3, 
+.city h3
+{
+  margin-top: 0.5rem;
 }
