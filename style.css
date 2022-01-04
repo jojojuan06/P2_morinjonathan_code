@@ -216,10 +216,9 @@ margin-right: 16px;
 }
 .apartments-list > div
 {
-  border: 1px solid red;
   background-color: #d9d9d9;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .apartments-list .city
 {
@@ -267,14 +266,7 @@ font-weight: bold;
   gap: 1rem;
   flex-wrap: wrap;
 }
-.apartments-list .popular-flex div
-{
-  border: 1px solid blue;
-}
-.apartments-list h2 
-{
-  flex-basis: 100%;
-}
+
 @media (max-width:800px)
 {
 .apartments-list .popular-flex {
@@ -300,7 +292,10 @@ object-fit: cover;
 object-position: top;
 
 }
-.apartment-card p, h3
+.apartment-card p, 
+.apartment-card h3,
+.popular-description p, 
+.popular-description h3
 {
 margin: 0.2rem;
 }
@@ -308,8 +303,37 @@ margin: 0.2rem;
 {
 color: #0065fc; 
 }
+.popular h3 
+{
+  display: flex;
+  justify-content: space-between;
+}
 
 .grey
 {
 color: #f2f2f2;
+}
+/* POPULAR CARD */
+
+.popular-card.apartment-card img
+{
+height: auto;
+border-radius: 1rem 0 0 1rem;
+width: 40%;
+margin-right: 1rem;
+}
+.popular-description
+{
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-card {
+  display: flex;
+  min-width: 15rem;
+}
+.popular-card .stars
+{
+  margin-top: auto;
 }
