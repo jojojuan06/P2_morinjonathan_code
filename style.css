@@ -59,7 +59,7 @@ color:#0065fc;
 {
   padding:0 2rem;
 }
-.wrapper h1, p {
+.wrapper p {
 
 margin-bottom: 1rem;
 }
@@ -118,8 +118,13 @@ text-align: center;
 {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem 2rem;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.filter-list h1
+{
+margin-bottom: 0;
 }
 .filter
 {
@@ -138,6 +143,7 @@ width: 3rem;
 height: 3rem;
 border-radius: 50%;
 margin: -2px;
+transition: all 100ms;
 }
 
 .filter span 
@@ -145,7 +151,31 @@ margin: -2px;
   font-weight: bold;
   padding: 0rem 1rem;
 }
+.filter:hover
+{
+background: #f3f8ff;
+transform: scale(1.02);
+}
 
+/* RESULTS MESSAGE */
+.results-message
+{
+  display: flex;
+  align-items: center;
+}
+
+.results-message .fas 
+{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #0065fc;
+width: 2rem;
+height: 2rem;
+border: solid 1px #d9d9d9;
+border-radius: 50%;
+margin-right: 16px;
+}
 @media (max-width:992px) {
   .sub-nav {
     order: 1;
