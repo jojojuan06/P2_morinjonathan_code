@@ -121,6 +121,13 @@ text-align: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
+.filter
+{
+display: flex;
+border-radius: 2rem;
+border: 2px solid #f2f2f2;
+align-items: center;
+}
 .filter .fas{
 display: flex;
 align-items: center;
@@ -130,19 +137,13 @@ background-color: #DEEBFF;
 width: 3rem;
 height: 3rem;
 border-radius: 50%;
-margin: -3px;
+margin: -2px;
 }
-.filter
-{
-display: flex;
-border-radius: 2rem;
-border: 2px solid #f2f2f2;
-align-items: center;
-}
+
 .filter span 
 {
   font-weight: bold;
-  padding: 1rem;
+  padding: 0rem 1rem;
 }
 
 @media (max-width:992px) {
