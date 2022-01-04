@@ -187,6 +187,7 @@ margin-right: 16px;
   border: 1px solid red;
   background-color: #d9d9d9;
   padding: 1rem;
+  border-radius: 1rem;
 }
 .apartments-list .city
 {
