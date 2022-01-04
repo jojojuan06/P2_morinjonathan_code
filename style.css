@@ -295,6 +295,9 @@ font-weight: bold;
 {
 border-radius: 1rem 1rem  0  0;
 height: 10rem;  
+width: 100%;
+object-fit: cover;
+object-position: top;
 
 }
 .apartment-card p, h3
