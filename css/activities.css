@@ -2,23 +2,28 @@
 
 .activities-list
 {
-    background-color: teal;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(10rem, 20rem));
+    grid-template-columns: repeat(auto-fit,minmax(10rem, 35rem));
     grid-template-rows:repeat(5,1fr);
-    grid-gap: 1rem;
-    margin-bottom: 20vh;
+    gap: 2rem;
+    margin-top: 2rem;
     justify-content: center;
-    
+    transition: all 200ms;
 }
-
+.activities-list > div:hover
+{
+transform: scale(1.02);  
+}
 .activities-list > *
 {
-border: 1px solid blue;
 background-size: cover;
 display: flex;   
 background-position: center; 
+border-radius: 1rem 1rem; 
+box-shadow: 0 0 20px #0000002e;
+transition-duration: 0.1s;
 }
+
 .big
 {
 height: 30rem;
@@ -53,7 +58,7 @@ background-image:url("../src/hebergements/3_medium/kevin-hikari-rV_Qd1l-VXg-unsp
 }
 .small2
 {
-grid-column:4/-1;
+grid-column:5/0;
 grid-row: 1/3;
 background-image:url("../src/hebergements/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");     
 }
@@ -63,15 +68,26 @@ background-color: white;
 margin-top: auto;
 margin-bottom: 0; 
 width: 100%;
-padding: 1rem;   
+padding: 1rem;  
+border-radius: 0  0  1rem 1rem; 
 }
 @media (max-width:1500px){
+
+.activities-list {
+    grid-template-rows: repeat(auto-fit, 15rem);
+}
+
+
 .activities-list > * 
     {
       grid-column:  span 1;
       grid-row: span 1; 
-      grid-template-rows: unset;
-      background-color: pink;
       height: 15rem;
       }
+}
+@media (max-width:1230px){
+    .activities-list {
+        grid-template-columns: 1fr;
+    }
+
 }
