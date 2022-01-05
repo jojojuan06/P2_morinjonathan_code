@@ -1,0 +1,47 @@
+/* APPARTENTS LIST */
+.apartments-list
+{
+  display: flex;
+  gap: 1rem;
+}
+.apartments-list > div
+{
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.apartments-list .city
+{
+  flex-basis: 66%;
+}
+.apartments-list .popular
+{
+  flex-basis: 33%;
+}
+.apartments-list .city a
+{
+font-weight: bold;
+}
+
+
+@media (max-width:1440px)  
+{
+  .apartments-list
+  {
+  flex-direction:column;
+  
+  }
+  .popular
+  {
+  order: -1;  
+  }
+}
+/* LIST APPARTEMENTS CITY */
+.city-apartments-list
+{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
