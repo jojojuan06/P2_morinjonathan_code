@@ -5,8 +5,7 @@
     display: grid;
     grid-template-rows:1fr 2fr 1fr;
     grid-template-columns: repeat(auto-fit,minmax(10rem, 20rem));
-    grid-gap: 0.5rem;
-    background-color: teal;
+    grid-gap: 1rem;
     margin-bottom: 20vh;
     justify-content: center;
     
@@ -18,14 +17,20 @@ border: 1px solid blue;
 }
 .big1
 {
-grid-row: 1/-1;
+grid-row: 1/4;
+background-image:url("/src/hebergements/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+height: 30rem;
 }
 .big2 {
 grid-column: 3/4;
 }
-.medium
+.medium1
 {
 grid-row: span 2;    
+}
+.medium2
+{
+grid-row: span 2;      
 }
 .small1
 {
@@ -37,6 +42,5 @@ grid-row: 3/4;
     {
       grid-column:  span 1;
       grid-row: span 1; 
-      background-color: pink;
       }
 }
