@@ -13,16 +13,21 @@
 
 .activities-list > *
 {
-border: 1px solid blue;    
+border: 1px solid blue;
+background-size: cover;
+display: flex;    
 }
 .big1
 {
 grid-row: 1/4;
-background-image:url("/src/hebergements/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+background-image:url("../src/hebergements/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 height: 30rem;
 }
 .big2 {
 grid-column: 3/4;
+grid-row: 1/ span 3;
+background-image:url("../src/hebergements/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+height: 30rem;
 }
 .medium1
 {
@@ -36,6 +41,14 @@ grid-row: span 2;
 {
 grid-column: 2/3;  
 grid-row: 3/4;
+}
+.activities-list h3 
+{
+background-color: white;    
+margin-top: auto;
+margin-bottom: 0; 
+width: 100%;
+padding: 1rem;   
 }
 @media (max-width:1500px){
 .activities-list > * 
