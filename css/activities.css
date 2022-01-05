@@ -1,57 +1,42 @@
-.activites-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-.activite-card
+/* Activities */
+
+.activities-list
 {
-    display: flex;
-    flex-direction: column;
-    max-width: 20rem;
-    min-width: 15rem;
-    margin: 1rem;
-    border-radius:1rem;
-}
-.activite-card-image {
-    height: 100%;
-}
-.activite-card-img 
-{
- height: 100%;
- object-fit: cover;
- object-position: center;
- width: 100%;
- border-radius: 1rem;   
-}
-.activite-card-child 
-{
-display: flex;
-flex-direction: column;
-border-radius: 1rem;    
-}
-.activites-list h4 
-{
- margin: 1rem;   
-}
-.petit
- {
-height: 11rem;
-}
-.grand 
-{
-    height: 14rem;
-}
-.parent 
-{
+    display: grid;
+    grid-template-rows:1fr 2fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(10rem, 20rem));
+    grid-gap: 0.5rem;
     background-color: teal;
+    margin-bottom: 20vh;
+    justify-content: center;
+    
 }
-@media (max-width)
+
+.activities-list > *
 {
-.parent 
-{
-    flex-direction: row;
+border: 1px solid blue;    
 }
-.activites-list > :not(.parent)
+.big1
 {
-background-color: red;    
-}    
+grid-row: 1/-1;
+}
+.big2 {
+grid-column: 3/4;
+}
+.medium
+{
+grid-row: span 2;    
+}
+.small1
+{
+grid-column: 2/3;  
+grid-row: 3/4;
+}
+@media (max-width:1500px){
+.activities-list > * 
+    {
+      grid-column:  span 1;
+      grid-row: span 1; 
+      background-color: pink;
+      }
 }
