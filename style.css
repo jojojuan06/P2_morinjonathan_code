@@ -133,7 +133,7 @@ text-align: center;
  border-radius: 0 1rem 1rem 0;
 }
 
-@media (max-width:800px)
+@media (max-width:992px)
 {
   .search-form .search-text
   {
@@ -234,7 +234,7 @@ font-weight: bold;
 }
 
 
-@media (max-width:1000px)  
+@media (max-width:1440px)  
 {
   .apartments-list
   {
@@ -305,7 +305,7 @@ border-radius: 1rem 1rem  0  0;
 height: 10rem;  
 width: 100%;
 object-fit: cover;
-object-position: top;
+object-position: center;
 
 }
 .apartment-card p, 
@@ -347,8 +347,9 @@ margin-right: 1rem;
 
 .popular-card {
   display: flex;
-  min-width: 15rem;
+  min-width: 25rem;
   max-height: 10rem ;
+  
 }
 .popular-card .stars
 {
@@ -358,4 +359,10 @@ margin-right: 1rem;
 .city h3
 {
   margin-top: 0.5rem;
+}
+@media (max-width:510px)
+{
+  .apartment-card img {
+  overflow: scroll;
+  }
 }
