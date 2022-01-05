@@ -6,21 +6,23 @@
 }
 body
 {
-  margin:0;
+margin: 0;
 }
+main
+{
+margin:0 auto;
+max-width: 1440px;
+padding: 0 2rem;
+}
+
 
 a
 {
 color: initial;
 text-decoration: none;
 }
-@import url(./css/navbar.css);
-/* BODY */
-.wrapper
-{
-  padding:0 2rem;
-}
-.wrapper p {
+
+main p {
 
 margin-bottom: 1rem;
 }

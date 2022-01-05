@@ -8,11 +8,7 @@
     gap: 2rem;
     margin-top: 2rem;
     justify-content: center;
-    transition: all 200ms;
-}
-.activities-list > div:hover
-{
-transform: scale(1.02);  
+    margin-bottom: 4rem;
 }
 .activities-list > *
 {
@@ -21,9 +17,13 @@ display: flex;
 background-position: center; 
 border-radius: 1rem 1rem; 
 box-shadow: 0 0 20px #0000002e;
-transition-duration: 0.1s;
+transition: all 200ms;
 }
-
+.activities-list > div:hover
+{
+transform: scale(1.02);
+box-shadow: 3px 5px 11px -5px #000000;  
+}
 .big
 {
 height: 30rem;

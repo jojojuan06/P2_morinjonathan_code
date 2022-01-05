@@ -15,7 +15,7 @@ text-align: center;
 
 nav a:hover
 {
-  border-top-color: #0065fc;
+border-top-color: #0065fc;
 }
 #logo
 {
@@ -30,11 +30,15 @@ color:#0065fc;
 }
 
 .sub-nav {
-  display:flex;
+display:flex;
 }
 .sub-nav a:hover
 {
   color:blue;
+}
+.header
+{
+margin: auto;
 }
 @media (max-width:992px) {
   .sub-nav {
