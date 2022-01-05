@@ -1,0 +1,26 @@
+/* WILDCARD */
+*
+{
+  font-family: "Raleway", "sans-serif";
+  box-sizing: border-box;
+}
+body
+{
+  margin:0;
+}
+
+a
+{
+color: initial;
+text-decoration: none;
+}
+@import url(./css/navbar.css);
+/* BODY */
+.wrapper
+{
+  padding:0 2rem;
+}
+.wrapper p {
+
+margin-bottom: 1rem;
+}

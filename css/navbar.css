@@ -1,0 +1,53 @@
+/* NAVBAR */
+nav 
+{
+display:flex;
+align-items: center;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+nav a 
+{
+border-top:3px solid transparent;    
+padding: 2rem;
+text-align: center;
+}
+
+nav a:hover
+{
+  border-top-color: #0065fc;
+}
+#logo
+{
+
+margin-right: auto;
+padding: 0rem 2rem;
+}
+.signup
+{
+font-weight: bold;
+color:#0065fc;
+}
+
+.sub-nav {
+  display:flex;
+}
+.sub-nav a:hover
+{
+  color:blue;
+}
+@media (max-width:992px) {
+  .sub-nav {
+    order: 1;
+    flex-basis: 100%;
+  } 
+  .sub-nav a {
+  flex-basis: 50%;
+  border-bottom: 3px solid #f2f2f2;
+  }
+  .sub-nav a:hover
+  {
+  border-bottom-color:blue ;
+  border-top: transparent;
+  }
+}
