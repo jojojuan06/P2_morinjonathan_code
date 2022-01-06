@@ -52,21 +52,21 @@ color:#0065fc;
 .navbar .navbar {
 display:flex;
 }
-.narbar .navbar a:hover
-{
-color:blue;
+.navbar a:hover {
+  color: #0065fc;
 }
 .header
 {
 margin: auto;
 }
-@media (max-width:992px) {
+@media (max-width:600px) {
   .navbar .narbar {
     order: 1;
     flex-basis: 100%;
   } 
-  .navabr .navbar a {
+  .navbar .navbar a {
   flex-basis: 50%;
+  width: 100%;
   border-bottom: 3px solid #f2f2f2;
   }
   .navbar .navbar a:hover
@@ -74,14 +74,18 @@ margin: auto;
   border-bottom-color:blue ;
   border-top: transparent;
   }
+  #navbar-link-accomodation a:first-child
+{
+ border-top-color:transparent; 
+}
 }
 @media  screen and (max-width:600px){
-.navbar
+.navbar.navbar
 {
 display:grid;  
+grid-auto-flow: column;
 grid-template-columns: 1fr 1fr;
-grid-template-areas: "logo navbar-sign-up"
+grid-template-areas: " logo navbar-sign-up",
 "navbar-link-accomodation navbar-link-activities";
-
 }
   }
