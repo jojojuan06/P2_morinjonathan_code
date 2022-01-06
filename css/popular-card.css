@@ -31,9 +31,3 @@ object-fit: cover;
 {
   margin-top: 0.5rem;
 }
-@media (max-width:510px)
-{
-  .apartment-card img {
-   overflow: scroll;
-  }
-}

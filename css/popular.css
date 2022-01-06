@@ -7,12 +7,12 @@ flex-direction: column;
 }
 .apartments-list .popular-flex
 {
-  display: flex;
-  flex-direction: column;
+  display:inline-flex;
+  /* flex-direction: column; */
   gap: 1rem;
   flex-wrap: wrap;
-  flex-basis: 100%;
-  justify-content:space-between;
+  flex-basis: 87%;
+  justify-content:center;
 }
 
 @media (max-width:800px)
