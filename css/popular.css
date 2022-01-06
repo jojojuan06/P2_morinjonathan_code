@@ -21,3 +21,13 @@ flex-direction: column;
  flex-direction: row;
  } 
 }
+@media (max-width:300px){
+
+.popular
+{
+  display: flex;
+  flex-direction:column;
+  overflow: auto; 
+}
+
+}
