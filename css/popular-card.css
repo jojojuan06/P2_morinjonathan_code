@@ -18,7 +18,7 @@ object-fit: cover;
 
 .popular-card {
   display: flex;
-  min-width: 25rem;
+  min-width: 19rem;
   max-height: 10rem ;
   
 }
@@ -30,4 +30,30 @@ object-fit: cover;
 .city h3
 {
   margin-top: 0.5rem;
+}
+@media (max-width:510px)
+{
+  .apartment-card img {
+   overflow: scroll;
+  }
+}
+@media  (max-width: 1070px)
+{  
+.popular-card  {
+  display: flex;
+  min-width: 25rem;
+  max-height: 10rem ; 
+  }
+}
+@media  (max-width: 400px)
+{ 
+.popular-card  {
+  display: flex;
+  min-width: 10rem;
+  max-height: 10rem ; 
+  overflow:auto;
+  }
+ .apartements-list {
+  overflow:auto;
+ }
 }
