@@ -133,3 +133,26 @@
 }
 
 }
+
+/* Activities */
+
+@media (max-width:1500px){
+
+    .activities-list {
+        grid-template-rows: repeat(auto-fit, 15rem);
+    }
+    
+    
+    .activities-list > * 
+        {
+          grid-column:  span 1;
+          grid-row: span 1; 
+          height: 15rem;
+          }
+    }
+    @media (max-width:1230px){
+        .activities-list {
+            grid-template-columns: 1fr;
+        }
+    
+    }
