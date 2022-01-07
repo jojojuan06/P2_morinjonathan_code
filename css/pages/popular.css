@@ -8,26 +8,8 @@ flex-direction: column;
 .apartments-list .popular-flex
 {
   display:inline-flex;
-  /* flex-direction: column; */
   gap: 1rem;
   flex-wrap: wrap;
   flex-basis: 87%;
   justify-content:center;
-}
-
-@media (max-width:800px)
-{
-.apartments-list .popular-flex {
- flex-direction: row;
- } 
-}
-@media (max-width:300px){
-
-.popular
-{
-  display: flex;
-  flex-direction:column;
-  overflow: auto; 
-}
-
 }

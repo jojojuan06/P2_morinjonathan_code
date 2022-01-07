@@ -46,10 +46,3 @@ color: #0065fc;
 {
 color: #f2f2f2;
 }
-@media (max-width:510px)
-{
-  .apartment-card img {
-   overflow: scroll;
-  }
-  
-}

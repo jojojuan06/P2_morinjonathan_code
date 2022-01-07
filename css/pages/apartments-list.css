@@ -23,22 +23,6 @@
 {
 font-weight: bold;
 }
-
-
-@media (max-width:1440px)  
-{
-
-  .apartments-list
-  {
-  flex-direction:column;
-  
-  }
-  .popular
-  {
-  order: -1;
-  flex-basis: 100%;  
-  }
-}
 /* LIST APPARTEMENTS CITY */
 .city-apartments-list
 {

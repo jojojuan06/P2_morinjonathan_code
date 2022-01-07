@@ -31,26 +31,3 @@ object-fit: cover;
 {
   margin-top: 0.5rem;
 }
-@media (max-width:510px)
-{
-  .apartment-card img {
-   overflow: scroll;
-  }
-}
-@media  (max-width: 1070px)
-{  
-.popular-card  {
-  display: flex;
-  min-width: 25rem;
-  max-height: 10rem; 
-  }
-}
-@media  (max-width: 506px)
-{ 
-.popular-card  {
-  display: flex;
-  min-width: 10rem;
-  max-height: 10rem ; 
-  overflow:auto;
-  }
-}

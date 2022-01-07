@@ -52,14 +52,3 @@
      border-radius: 0 1rem 1rem 0;
     }
     
-    @media (max-width:992px)
-    {
-      .search-form .search-text
-      {
-        display: none;
-      }
-      .fas.fa-search {
-        display: inline;
-        background-color:inherit;
-      }
-    }

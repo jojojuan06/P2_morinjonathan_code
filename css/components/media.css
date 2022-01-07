@@ -1,0 +1,135 @@
+/* NAVBAR */
+@media screen and (max-width:630px) {
+    .navbar .sub-nav
+    {
+    display:flex; 
+    justify-content:space-around;
+    font-weight: 500;
+    flex-wrap: wrap;
+    order: 1;
+    flex-basis: 100%;
+    padding: 1rem;
+    }
+    .navbar .sub-nav .navbar-link {
+      border-top: transparent;
+      border-bottom: 3px solid #F2F2F2;
+      flex-basis: 50%;
+      transition-duration: 0.1s;
+    }
+    .navbar .sub-nav .navbar-link.active-link
+    {
+      border-bottom: 3px solid #0065fc; 
+    }
+    .navbar .sub-nav .navbar-link:hover {
+      
+      border-bottom: 3px solid #0065fc; 
+      
+    }
+    .navbar .sub-nav a {
+    flex-basis: 50%;
+    text-align: center;
+    }
+    }
+    @media screen and (max-width:434px) {
+      nav{
+        margin: auto;
+      }
+      nav a {
+        padding: 0;
+      }
+     #logo
+     {
+      padding: 0 0 0 0;
+      margin-right: 4rem;
+     }
+    }
+    @media screen and (max-width:330px) {
+      nav{
+        justify-content: center;
+      }
+     
+    }
+
+    /* SEARCH-FORM */
+    @media (max-width:992px)
+    {
+      .search-form .search-text
+      {
+        display: none;
+      }
+      .fas.fa-search {
+        display: inline;
+        background-color:inherit;
+      }
+    }
+
+    /* APARTMENT IMAGE  */
+    @media (max-width:510px)
+{
+  .apartment-card img {
+   overflow: scroll;
+  }
+  
+}
+
+/* APPARTENTS LIST */
+
+@media (max-width:1440px)  
+{
+
+  .apartments-list
+  {
+  flex-direction:column;
+  
+  }
+  .popular
+  {
+  order: -1;
+  flex-basis: 100%;  
+  }
+}
+
+/* POPULAR CARD */
+
+@media (max-width:510px)
+{
+  .apartment-card img {
+   overflow: scroll;
+  }
+}
+@media  (max-width: 1070px)
+{  
+.popular-card  {
+  display: flex;
+  min-width: 25rem;
+  max-height: 10rem; 
+  }
+}
+@media  (max-width: 506px)
+{ 
+.popular-card  {
+  display: flex;
+  min-width: 10rem;
+  max-height: 10rem ; 
+  overflow:auto;
+  }
+}
+
+/*  POPULAR */
+
+@media (max-width:800px)
+{
+.apartments-list .popular-flex {
+ flex-direction: row;
+ } 
+}
+@media (max-width:300px){
+
+.popular
+{
+  display: flex;
+  flex-direction:column;
+  overflow: auto; 
+}
+
+}
