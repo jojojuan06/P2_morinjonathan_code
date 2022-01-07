@@ -2,11 +2,9 @@
 .navbar 
 {
 display:grid;
-justify-content: center;
 align-items: center;
 grid-template-columns: 6fr 2fr 0fr 0fr;
-grid-template-areas: "logo signup"
-"subnav";
+
 }
 
 .navbar a 
@@ -15,11 +13,6 @@ border-top:3px solid transparent;
 padding: 2rem;
 text-align: center;
 }
-/* .navbar .navbar div:first-child
-{
-display: flex;
-color: #0065fc;
-border-top: 3px solid #0065fc; */
 #navbar-link-accomodation a 
 {
   color: #0065fc;
@@ -32,7 +25,7 @@ border-top: 3px solid #0065fc; */
 {
 border-top-color: #0065fc;
 }
-.navbar .navbar-link {
+.navbar .navbar div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,17 +55,13 @@ margin: auto;
 
 @media screen and (max-width:600px) {
   
-  .navbar .narbar {
-    order: 1;
-    flex-basis: 100%;
-  } 
- 
-  .navbar .navbar a {
-  flex-basis: 50%;
-  width: 100%;
+  .navbar .navbar .navbar-link  {
+  
+  border-top: none;
   border-bottom: 3px solid #f2f2f2;
+  width: 100%;
   }
-  .navbar .navbar a:hover
+  .navbar .navbar .navbar-link a:hover
   {
   border-bottom-color:blue ;
   border-top: transparent;
@@ -83,12 +72,12 @@ margin: auto;
 }
 }
 @media  screen and (max-width:600px){
-.navbar.navbar
+.navbar
 {
-display:grid;  
-grid-auto-flow: column;
-grid-template-columns: 1fr 1fr;
-grid-template-areas: " logo navbar-sign-up",
-"navbar-link-accomodation navbar-link-activities";
+display:flex; 
+font-weight: 500;
+text-align: center;
+flex-wrap: wrap;
+order: 1;
 }
   }
