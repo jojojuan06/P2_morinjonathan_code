@@ -33,7 +33,6 @@ nav :first-child a
 {
 border-top-color: #0065fc;
 }
-
 #logo
 {
 margin-right: auto;
@@ -61,6 +60,7 @@ padding: 1rem;
   border-top: transparent;
   border-bottom: 3px solid #F2F2F2;
   flex-basis: 50%;
+  transition-duration: 0.1s;
 }
 .navbar .sub-nav .navbar-link.active-link
 {
@@ -76,3 +76,5 @@ flex-basis: 50%;
 text-align: center;
 }
 }
+
+  
