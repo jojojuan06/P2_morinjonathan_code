@@ -21,8 +21,10 @@
 border-radius: 1rem 1rem  0  0;
 height: 10rem;  
 width: 100%;
-object-fit: cover;
-object-position: center;
+-o-object-fit: cover;
+   object-fit: cover;
+-o-object-position: center;
+   object-position: center;
 
 }
 .apartment-card p, 

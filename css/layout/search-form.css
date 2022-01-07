@@ -23,6 +23,30 @@
       border: 1px solid #f2f2f2;
       overflow: auto;
     }
+    .search-form input::-webkit-input-placeholder 
+    {
+      font-size: 1rem;
+      color: #00000069;
+      padding: 1rem 1.5rem;
+    }
+    .search-form input::-moz-placeholder 
+    {
+      font-size: 1rem;
+      color: #00000069;
+      padding: 1rem 1.5rem;
+    }
+    .search-form input:-ms-input-placeholder 
+    {
+      font-size: 1rem;
+      color: #00000069;
+      padding: 1rem 1.5rem;
+    }
+    .search-form input::-ms-input-placeholder 
+    {
+      font-size: 1rem;
+      color: #00000069;
+      padding: 1rem 1.5rem;
+    }
     .search-form input::placeholder 
     {
       font-size: 1rem;
