@@ -5,7 +5,7 @@ display:flex;
 align-items: center;
 justify-content:flex-end;
 flex-wrap: wrap;
-
+min-width: 370px;
 }
 
 nav a 
@@ -35,8 +35,9 @@ border-top-color: #0065fc;
 }
 #logo
 {
+display: flex;
+cursor: pointer;
 margin-right: auto;
-padding: 0 2rem;
 }
 
 
@@ -76,5 +77,22 @@ flex-basis: 50%;
 text-align: center;
 }
 }
-
-  
+@media screen and (max-width:434px) {
+  nav{
+    margin: auto;
+  }
+  nav a {
+    padding: 0;
+  }
+ #logo
+ {
+  padding: 0 0 0 0;
+  margin-right: 4rem;
+ }
+}
+@media screen and (max-width:330px) {
+  nav{
+    justify-content: center;
+  }
+ 
+}
