@@ -9,6 +9,10 @@
   flex-basis: 30%;
   width: 1rem;
 }
+.apartment-card h3
+{
+  overflow: auto;
+}
 .apartment-card:hover 
 {
  transform: scale(1.02);
