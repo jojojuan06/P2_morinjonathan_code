@@ -46,7 +46,13 @@
     @media screen and (max-width:330px) {
       nav{
         justify-content: center;
+        align-items: center;
       }
+      #logo
+     {
+      padding: 0 0 0 0;
+      margin-right: -1rem;
+     }
      
     }
 
@@ -156,3 +162,4 @@
         }
     
     }
+
