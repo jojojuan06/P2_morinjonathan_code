@@ -13,12 +13,12 @@ nav a
 border-top:3px solid transparent;    
 padding: 2rem;
 }
-nav a:nth-child(1n+3) 
+.navbar-link.login 
 {
 font-weight: bold;
 color:#0065fc;
 }
-nav :first-child a 
+.navbar-link.active-link
 {
   color: #0065fc;
   border-top-color: #0065fc; 
@@ -29,10 +29,12 @@ nav :first-child a
 .navbar a:hover {
     color: #0065fc;
   }
+
 .navbar :not(:last-child) a:hover
 {
 border-top-color: #0065fc;
 }
+
 #logo
 {
 display: flex;
