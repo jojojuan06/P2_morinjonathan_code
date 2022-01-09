@@ -6,6 +6,7 @@ align-items: center;
 justify-content:flex-end;
 flex-wrap: wrap;
 min-width: 330px;
+font-weight: 500;
 }
 .navbar .sub-nav
 {
