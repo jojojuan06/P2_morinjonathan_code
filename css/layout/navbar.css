@@ -23,9 +23,7 @@ color:#0065fc;
   color: #0065fc;
   border-top-color: #0065fc; 
 }
-.navbar .sub-nav {
-  display:flex;
-  }
+
 .navbar a:hover {
     color: #0065fc;
   }
