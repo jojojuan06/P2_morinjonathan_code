@@ -3,7 +3,6 @@ nav
 {
 display:flex;
 align-items: center;
-justify-content:flex-end;
 flex-wrap: wrap;
 min-width: 330px;
 font-weight: 500;
@@ -39,9 +38,17 @@ border-top-color: #0065fc;
 
 #logo
 {
-display: flex;
 cursor: pointer;
 margin-right: auto;
 }
 
-
+header{
+ display:grid; 
+ justify-content: stretch;
+ max-width: 1440px;
+ margin: auto;
+}
+header img
+{
+padding: 0 2rem;
+}
