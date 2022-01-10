@@ -35,6 +35,7 @@ transition: all 100ms;
 {
   font-weight: bold;
   padding: 0rem 1rem;
+  cursor: pointer;
 }
 .filter:hover
 {
