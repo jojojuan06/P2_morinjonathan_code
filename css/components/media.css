@@ -45,16 +45,6 @@
   }
 }
 
-/* SEARCH-FORM */
-@media screen and (max-width: 992px) {
-  .search-form .search-text {
-    display: none;
-  }
-  .fas.fa-search {
-    display: inline;
-    background-color: inherit;
-  }
-}
 
 /* APPARTENTS LIST */
 
@@ -83,6 +73,17 @@
     min-width: 10rem;
     max-height: 10rem;
     overflow: auto;
+  }
+}
+
+/* SEARCH-FORM */
+@media screen and (max-width: 992px) {
+  .search-form .search-text {
+    display: none;
+  }
+  .fas.fa-search {
+    display: inline;
+    background-color: inherit;
   }
 }
 
