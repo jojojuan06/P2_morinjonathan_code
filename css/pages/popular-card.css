@@ -32,3 +32,8 @@ margin-right: 0.5rem;
 {
   margin-top: 0.5rem;
 }
+.apartment-card.popular-card
+{
+  flex-direction: row;
+  flex-basis: 50%;
+}

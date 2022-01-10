@@ -65,15 +65,6 @@
       }
     }
 
-    /* APARTMENT IMAGE  */
-    @media (max-width:510px)
-{
-  .apartment-card img {
-   overflow: scroll;
-  }
-  
-}
-
 /* APPARTENTS LIST */
 
 @media (max-width:1440px)  
@@ -93,12 +84,7 @@
 
 /* POPULAR CARD */
 
-@media (max-width:510px)
-{
-  .apartment-card img {
-   overflow: scroll;
-  }
-}
+
 @media  (max-width: 1070px)
 {  
 .popular-card  {
@@ -119,7 +105,7 @@
 
 /*  POPULAR */
 
-@media (max-width:800px)
+@media (max-width:931px)
 {
 .apartments-list .popular-flex {
  flex-direction: row;
