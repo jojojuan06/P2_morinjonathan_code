@@ -46,7 +46,7 @@ header{
  display:grid; 
  justify-content: stretch;
  max-width: 1440px;
- margin: auto;
+ margin: 0 auto;
 }
 header img
 {
