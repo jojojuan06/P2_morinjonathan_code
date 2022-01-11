@@ -7,13 +7,17 @@
     flex-wrap: wrap;
     order: 1;
     flex-basis: 100%;
-    padding: 1rem;
+    padding: 0;
   }
   .navbar .sub-nav .navbar-link {
     border-top: transparent;
-    border-bottom: 3px solid #f2f2f2;
     flex-basis: 50%;
-    transition-duration: 0.1s;
+    padding-bottom: 1rem;
+  }
+  .navbar-link.link
+  {
+  border-bottom: 3px solid #f2f2f2;
+  width: 50%;
   }
   .navbar .sub-nav .navbar-link.active-link {
     border-bottom: 3px solid #0065fc;
@@ -22,33 +26,24 @@
     border-bottom: 3px solid #0065fc;
   }
   .navbar .sub-nav a {
-    flex-basis: 50%;
     text-align: center;
   }
 }
 @media screen and (max-width: 434px) {
-  nav {
-    margin: auto;
-  }
   nav a {
     padding: 0;
   }
-}
-@media screen and (max-width: 330px) {
-  nav {
-    justify-content: center;
-    align-items: center;
-  }
   #logo {
-    padding: 0 0 0 0;
-    margin-right: -1rem;
+    cursor: pointer;
+    margin:0;
+    padding: 2rem;
   }
 }
 
 
 /* APPARTENTS LIST */
 
-@media (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .apartments-list {
     flex-direction: column;
   }
@@ -60,14 +55,14 @@
 
 /* POPULAR CARD */
 
-@media (max-width: 1070px) {
+@media screen and (max-width: 1070px) {
   .popular-card {
     display: flex;
     min-width: 25rem;
     max-height: 10rem;
   }
 }
-@media (max-width: 506px) {
+@media screen and (max-width: 506px) {
   .popular-card {
     display: flex;
     min-width: 10rem;
@@ -89,12 +84,12 @@
 
 /*  POPULAR */
 
-@media (max-width: 931px) {
+@media screen and (max-width: 931px) {
   .apartments-list .popular-flex {
     flex-direction: row;
   }
 }
-@media (max-width: 300px) {
+@media screen and (max-width: 300px) {
   .popular {
     display: flex;
     flex-direction: column;
@@ -104,7 +99,7 @@
 
 /* Activities */
 
-@media (max-width: 1500px) {
+@media screen and (max-width: 1500px) {
   .activities-list {
     grid-template-rows: repeat(auto-fit, 15rem);
   }
@@ -115,7 +110,7 @@
     height: 15rem;
   }
 }
-@media (max-width: 1230px) {
+@media screen and (max-width: 1230px) {
   .activities-list {
     grid-template-columns: 1fr;
   }
