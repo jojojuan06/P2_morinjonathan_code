@@ -99,19 +99,70 @@
 
 /* Activities */
 
-@media screen and (max-width: 1500px) {
-  .activities-list {
-    grid-template-rows: repeat(auto-fit, 15rem);
-  }
+ @media screen and (min-width: 1100px){
+.activity {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem;
+}
+.card1
+{
+grid-row: 2 / 7;
+grid-column: 1 / 2;
+}
+.card2
+{
+grid-column: 2 / 3;
+grid-row: 2 / 5; 
+}
+.card3
+{
+grid-column: 3 / 4;
+grid-row: 2 / 7;
+}  
+.card4 {
+grid-column: 4 / 5;
+grid-row: 2 / 3;
+}
+.card4
+{
+grid-column: 2 / 3;
+grid-row: 6 / 7;
+} 
+.card6
+{
+grid-column: 4 / 5;
+grid-row: 4 / 7;     
+}
+}
+@media screen and (max-width: 1100px){
 
-  .activities-list > * {
-    grid-column: span 1;
-    grid-row: span 1;
-    height: 15rem;
+.activity
+{
+ row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 12rem 12rem;   
+}
+}
+  
+
+@media screen and (max-width: 925px){
+
+  .activity
+  {
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 12rem 12rem 12rem;  
   }
 }
-@media screen and (max-width: 1230px) {
-  .activities-list {
+  
+
+@media screen and (max-width: 650px){
+
+  .activity
+  {
+    row-gap: 2rem;
     grid-template-columns: 1fr;
+    grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;}
   }
-}
+  
+ 

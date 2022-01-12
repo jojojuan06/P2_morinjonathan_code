@@ -42,12 +42,7 @@ cursor: pointer;
 margin-right: auto;
 }
 
-header{
- display:grid; 
- justify-content: stretch;
- max-width: 1440px;
- margin: 0 auto;
-}
+
 header img
 {
 padding: 0 2rem;
