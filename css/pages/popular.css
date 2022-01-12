@@ -8,8 +8,13 @@ flex-direction: column;
 .apartments-list .popular-flex
 {
   display:inline-flex;
-  gap: 1rem;
+  row-gap: 1rem;
   flex-wrap: wrap;
   flex-basis: 87%;
   justify-content:center;
+}
+.popular h2
+{
+  display: flex;
+  justify-content: space-between;
 }
