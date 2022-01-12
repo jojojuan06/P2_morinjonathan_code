@@ -43,7 +43,7 @@
 
 /* APPARTENTS LIST */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1000px) {
   .apartments-list {
     flex-direction: column;
   }
