@@ -26,10 +26,6 @@ main p {
 
 margin-bottom: 1rem;
 }
-.wrapper
-{
- overflow: hidden; 
-}
 section
 {
 min-width: 320px;
@@ -37,5 +33,6 @@ min-width: 320px;
 .container
 {
 max-width: 1440px; 
-margin: 0 auto;  
+margin: 0 auto;
+overflow: hidden;  
 }
