@@ -1,16 +1,16 @@
-@import url(./css/base/body.css);
-@import url(./css/layout/navbar.css);
-@import url(./css/layout/footer.css);
-@import url(./css/layout/search-form.css);
-@import url(./css/compoments/media.css);
-@import url(./css/pages/filters.css);
-@import url(./css/pages/results-message.css);
-@import url(./css/pages/apartments-list.css);
-@import url(./css/pages/popular.css);
-@import url(./css/pages/apartment.css);
-@import url(./css/pages/popular-card.css);
-@import url(./css/pages/activities.css);
-@import url(./css/components/media.css);
+@import "./css/base/body.css";
+@import "./css/layout/navbar.css";
+@import "./css/layout/footer.css";
+@import "./css/layout/search-form.css";
+@import "./css/compoments/media.css";
+@import "./css/pages/filters.css";
+@import "./css/pages/results-message.css";
+@import "./css/pages/apartments-list.css";
+@import "./css/pages/popular.css";
+@import "./css/pages/apartment.css";
+@import "./css/pages/popular-card.css";
+@import "./css/pages/activities.css";
+@import "./css/components/media.css";
 
 
 
