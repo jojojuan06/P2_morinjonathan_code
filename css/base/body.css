@@ -10,9 +10,10 @@ margin: 0;
 }
 main
 {
-margin:0 auto;
+margin:auto;
 max-width: 1440px;
 padding: 0 2rem;
+box-sizing: border-box;
 }
 
 
@@ -30,9 +31,15 @@ section
 {
 min-width: 320px;
 }
+
 .container
 {
-max-width: 1440px; 
-margin: 0 auto;
-overflow: hidden;  
-}
+  display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+} 

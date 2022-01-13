@@ -30,13 +30,19 @@
   }
 }
 @media screen and (max-width: 434px) {
+  nav
+  {
+   justify-content: space-evenly;
+  };
   nav a {
     padding: 0;
   }
   #logo {
     cursor: pointer;
     margin:0;
-    padding: 2rem;
+  }
+  .navbar .sub-nav{
+    flex-basis: 80%;
   }
 }
 

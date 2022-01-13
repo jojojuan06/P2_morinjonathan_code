@@ -2,8 +2,9 @@
 nav 
 {
 display:flex;
-align-items: center;
 flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 min-width: 330px;
 font-weight: 500;
 }
@@ -40,10 +41,7 @@ border-top-color: #0065fc;
 {
 cursor: pointer;
 margin-right: auto;
+margin-left: 2rem;
 }
 
 
-header img
-{
-padding: 0 2rem;
-}
