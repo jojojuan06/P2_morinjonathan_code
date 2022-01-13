@@ -31,6 +31,13 @@ grid-column: 1/-1;
     flex-direction: column;
     transition-duration: 0.1s;
 }
+.activity-card:hover {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
 .activity-sub-title
 {
 margin: 1.2rem 1.5rem;
