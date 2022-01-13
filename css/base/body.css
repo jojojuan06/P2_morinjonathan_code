@@ -38,7 +38,7 @@ min-width: 320px;
     flex-wrap: wrap;
     max-width: 1300px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: auto;
     align-content: center;
     flex-direction: column;
     justify-content: center;
