@@ -2,7 +2,6 @@
 @import "./css/layout/navbar.css";
 @import "./css/layout/footer.css";
 @import "./css/layout/search-form.css";
-@import "./css/compoments/media.css";
 @import "./css/pages/filters.css";
 @import "./css/pages/results-message.css";
 @import "./css/pages/apartments-list.css";
@@ -10,7 +9,7 @@
 @import "./css/pages/apartment.css";
 @import "./css/pages/popular-card.css";
 @import "./css/pages/activities.css";
-@import url(./css/components/media.css) screen and (max-width:1024px);
+@import "./css/components/media.css";
 
 
 
