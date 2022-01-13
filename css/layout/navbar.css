@@ -17,11 +17,6 @@ nav a
 border-top:3px solid transparent;    
 padding: 2rem;
 }
-.navbar-link.login 
-{
-font-weight: bold;
-color:#0065fc;
-}
 .navbar-link.active-link
 {
   color: #0065fc;
