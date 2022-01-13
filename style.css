@@ -11,7 +11,7 @@
 @import "./css/pages/popular-card.css";
 @import "./css/pages/activities.css";
 @import "./css/components/media.css";
-
+@import url(./css/components/media.css) (min-width:400px) and (max-width:1024px);
 
 
 
