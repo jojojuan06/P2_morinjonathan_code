@@ -58,7 +58,13 @@
 
 /* POPULAR CARD */
 
-
+@media screen and (max-width: 506px) {
+  .popular-card {
+    min-width: 11rem;
+    max-height: 10rem;
+    overflow: auto;
+  }
+}
 
 /* SEARCH-FORM */
 @media screen and (max-width: 992px) {
