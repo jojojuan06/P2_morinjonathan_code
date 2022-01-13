@@ -10,7 +10,6 @@
 @import "./css/pages/apartment.css";
 @import "./css/pages/popular-card.css";
 @import "./css/pages/activities.css";
-@import "./css/components/media.css";
 @import url(./css/components/media.css) screen and (max-width:1024px);
 
 
